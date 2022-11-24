@@ -1,0 +1,9 @@
+1. Interactive UI for entering feature values and predicting if a passenger would survive the titanic or not:
+
+https://c8347bed360d308a.gradio.app
+
+
+2. Dashboard UI showing a prediction of survival for the most recent passenger added to the Feature Store,
+    and the outcome (label) if that passenger survived or not:
+
+https://6870c2a1d159526b.gradio.app
