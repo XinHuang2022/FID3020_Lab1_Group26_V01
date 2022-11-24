@@ -9,7 +9,7 @@ In the file "training-pipeline.py", a binary classifier model is trained for pre
 Specifically we trained a logistic regression model with the rescaled data, and on a testing set with 92 passengers, the model predicted correctly on 43 True Survival cases and 37 True Not-survived cases, with an accuracy around (43+37)/92 = 0.87. The confusion matrix for the testing set is available in the root directory of this repository with the name "confusion_matrix.png".
 
 
-Under the folder "hugging-face-titanic", the file "app.py" downloads our model from Hopsworks, and provides a User Interface to allow users to enter or select feature values to predict if a passenger with the provided features would survive or not.
+Under the folder "hugging-face-titanic", the file "app.py" downloads our model from Hopsworks, and provides a User Interface to allow users to enter feature values to predict if a passenger with the provided features would survive or not.
 
 
 In the file "feature_daily.py", we define a synthetic passenger data generator, and our feature pipeline is updated to include also the new synthetic passengers.
