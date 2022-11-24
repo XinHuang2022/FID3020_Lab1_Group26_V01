@@ -26,7 +26,7 @@ This choice was made because of the following reasons.
 In terms of normalizing the features, we decided not to do it. For some reason, the model performed worse after scaling the feature values, so we decided not to do it (see the notebook).
 
 ## Classification model choice
-We trained a logistic regression model with the aforementioned features. We used a testing set with 92 passengers, out of which the model predicted correctly on 43 True Survival cases and 37 True Not-survived cases, with an accuracy around (43+37)/92 = 0.87. The confusion matrix for the testing set is available in the root directory of this repository with the name "confusion_matrix.png".
+We trained a logistic regression model with the aforementioned features. We used a testing set with 92 passengers, out of which the model predicted correctly on 43 True Survival cases and 37 True Not-survived cases, with an accuracy around (43+37)/92 = 0.87. The confusion matrix for the testing set is available in the folder **figures** of this repository with the name 'confusion_matrix_static_test_set.png'.
 
 As shown in the notebook `FeatureEngineering.ipynb` (towards the end) we also did some tests using a RandomForestClassifier. It performed better than the LogisticRegression and could have been implemented into the training pipeline for a better model.
 
