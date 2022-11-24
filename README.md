@@ -23,7 +23,7 @@ This choice was made because of the following reasons.
 * `cabin` also contains similar information as 'pclass' and 'fare'. We started by extracting only the floor ('A',...,'G','Unknown') but then decided not to keep it as we would have to use one-hot-encoding, creating mulitple new feature columns. This would probably not have been a problem, and keeping this feature is something we would have liked to investigate.
 * `embarked` did not seem to relevant, so we decided to not use it.   
 
-In terms of normalizing the features, we decided not to do it. For some reason, the model performed worse after scaling the feature values, so we decided not to do it.
+In terms of normalizing the features, we decided not to do it. For some reason, the model performed worse after scaling the feature values, so we decided not to do it (see the notebook).
 
 ## Classification model choice
 We trained a logistic regression model with the aforementioned features. We used a testing set with 92 passengers, out of which the model predicted correctly on 43 True Survival cases and 37 True Not-survived cases, with an accuracy around (43+37)/92 = 0.87. The confusion matrix for the testing set is available in the root directory of this repository with the name "confusion_matrix.png".
