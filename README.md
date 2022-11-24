@@ -1,4 +1,5 @@
 # FID3020_Lab1_Group26_V01
+Gruop members: Ludvig Doeser and Xin Huang
 
 ## Feature Engineering
 In the notebook `FeatureEngineering.ipynb` we visualize the data, perform feature engineering (pick out features, remove feature rows with NaN for relevant features, test normalization of the features etc).
