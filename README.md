@@ -46,7 +46,7 @@ Under the folder **huggingface-spaces-titanic-monitor**, the file named `app.py`
 
 ## Links to UI
 
-The two public URLs with gradi UI on Huggingface space are as follows:
+The two public URLs with gradi UI on Huggingface space are as follows: (In case thses two links expire, we can rerun the `app.py` scripts in the two folders **hugging-face-titanic** and **huggingface-spaces-titanic-monitor** respectively, to generate new valid public URLs.)
 
 1. Interactive UI for entering feature values and predicting if a passenger would survive the titanic or not:
 
